@@ -698,3 +698,7 @@ function web_editor(config) {
     checkVersion(qs);
     setupButtons();
 }
+
+if (typeof module !== 'undefined' && module.exports) {
+    global.pythonEditor = pythonEditor;
+}

@@ -127,3 +127,5 @@ var upyhex = (function() {
         injectPyStrIntoIntelHex: injectPyStrIntoIntelHex,
     };
 }());
+
+window.upyhex = upyhex;
